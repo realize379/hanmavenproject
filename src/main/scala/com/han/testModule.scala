@@ -30,7 +30,7 @@ object testModule {
     // 메모리 테이블 생성
     selloutDataFromPg.createOrReplaceTempView("")
 
-    데이터저장
+    //데이터저장
     // 데이터베이스 주소 및 접속정보 설정
     var outputUrl = "jdbc:oracle:thin:@192.168.110.9:1522/XE"
     //staticUrl = "jdbc:oracle:thin:@127.0.0.1:1522/XE"
